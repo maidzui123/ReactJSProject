@@ -69,3 +69,16 @@ header {
         display: none;
     }
 }
+
+
+@media screen and (max-width: 1400px) {
+    header {
+        height: 100vh;
+    }
+    .me {
+        width: 12rem;
+        height: 20rem;
+        position: absolute;
+        left: calc(50% - 8rem);
+    }
+}
